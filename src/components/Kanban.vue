@@ -1,6 +1,5 @@
 <template>
   <div class="kanban-component">
-    <h1>Фотосфера</h1>
     <div class="columns">
       <div class="column" v-for="(column, index) in columns" :key="index">
         <div :style="{ backgroundColor: column.color }" class="column__header">
